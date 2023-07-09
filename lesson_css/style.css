@@ -1,0 +1,16 @@
+/**/
+h2{
+    color: green;
+}
+
+#first{
+    color: white;
+    background: black;
+}
+
+.class1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font:bold;
+    color: blueviolet;
+    background: greenyellow;
+}
