@@ -1,0 +1,32 @@
+*{
+    /*обнуление отступов*/
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    padding-top: 30px; /*внутренний отступ сверху*/
+    padding-bottom: 30px; /*внутренний отступ снизу*/
+    background:#2F2E41;
+}
+
+.header__link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 113px;
+    color: #6C63FF;
+    mix-blend-mode: normal;
+}

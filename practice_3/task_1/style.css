@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #020A18;
+    width: 1921px;
+    height: 1030px;
+    /* flex-shrink: 0; */
+}
+
+.Top{
+    background-color: #020A18;
+    width: 1921px;
+    height: 100px;
+    /* flex-shrink: 0; */
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.Top_link{
+    color:  #FFFFFF;
+}
+
+.Main{
+    display: flex;
+    width: 1146px;
+    height: 415px;
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 90px;
+    /* flex-shrink: 0; */
+    /* justify-content: center; */
+}
+
+.Info{
+    display: flex;
+    width: 1146px;
+    height: 415px;
+    flex-direction: column;
+    padding: 50px;
+    /* flex-shrink: 0; */
+    /* margin-top: 260;
+    margin-bottom: 355;
+    margin-left: 388;
+    margin-right: 387;*/
+} 
+
+.Info_H2{
+    width: 604px;
+    flex-direction: column;
+    /* flex-shrink: 0; */
+
+    color: #3A68B8;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+
+    margin: auto;
+}
+
+.Info_H1{
+    width: 604px;
+    flex-direction: column;
+    /* flex-shrink: 0; */
+
+    color: #FFFFFF;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+
+    margin: auto;
+}
+
+.Info_Paragraph{
+    display: flex;
+    width: 558px;
+    flex-direction: column;
+    /* flex-shrink: 0; */
+    color: #FFFFFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* margin: auto; */
+}
+
+.Info_Buttons{
+    display: flex;
+    display: inline-flex;
+    align-items: flex-start;
+    text-align: center;
+    gap: 30px;
+
+    /* margin: auto; */
+}
+
+.Info_Button{
+    display: flex;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    text-align: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #3A68B8;
+    
+}
+
+.Info_play{
+    width: 15px;
+    height: 15px;
+}
+
+
+.Picture{
+    width: 414px;
+    height: 415px;
+    /* flex-shrink: 0; */
+}
+
+.Botton{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    width: 1146.449px;
+    height: 59px;
+    justify-content: center;
+    /* flex-shrink: 0; */
+}
