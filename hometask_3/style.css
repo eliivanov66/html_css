@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.page{
+    background: #FFFFFF;
+}
+
+.menu_bar{
+    display: flex;
+    flex:content;
+    flex-direction: row;
+}
+
+.menu_bar_logo{
+    display: flex;
+    flex:content;
+    gap: 14px;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 10px;
+    padding: 10px 45px;
+}
+
+
+
+.menu_bar_logo_image{
+    width: auto;
+    height: auto;
+}
+
+.menu_bar_logo_text{
+    color: #000000;
+    font-size: 24px;
+    font-style:normal;
+    font-weight: 400;
+    line-height:normal;
+}
+
+span{
+    color: #F25822;
+}
+
+.menu_bar_links{
+    display: flex;
+    flex:content;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    margin: 10px 10px;
+    padding: 10px 45px;
+}
+
+.menu_bar_link_1{
+    color: #F25822;
+}
+
+.menu_bar_link_2{
+    color: #000000;
+}
+
+.menu_bar_link_3{
+    color: #000000;
+}
+
+.menu_bar_link_4{
+    color: #000000;
+}
+
+.menu_bar_link_5{
+    color: #000000;
+}
+
+.menu_bar_link_6{
+    color: #000000;
+}
+
+.menu_bar_link_7{
+    color: #000000;
+}
+
+.menu_bar_links_get_started{
+    color: #FFFFFF;
+    background: #F25822;
+    border-radius: 30px;
+    border-width: 0;
+    width: 120px;
+    height: 40px;
+}
+
+.home{
+    display: flex;
+    flex: content;
+    flex-direction: row;
+}
+
+.home_meta{
+    display: flex;
+    flex: content;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.home_meta_header{
+    color: #000000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.home_meta_text{
+
+}
+
+.home_meta_text_text{
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.home_meta_text_element{
+
+}
+
+.home_meta_media{
+    display: flex;
+    flex: content;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home_meta_media_get_started{
+    color: #FFFFFF;
+    background: #F25822;
+    border-radius: 30px;
+    border-width: 0;
+    width: 120px;
+    height: 40px;
+}
+
+.home_meta_media_watch_video{
+    display: flex;
+    flex: content;
+    flex-direction: row;
+    gap:15px;
+    justify-content: center;
+}
+
+
+.home_meta_element{
+
+}
+
+.home_image{
+    width: auto;
+    height: auto;
+}
+
+
+.brand{
+    background: #FFFFFF;
+    display: flex;
+    flex: content;
+    flex-direction:column;
+}
+
+.brand_logo{
+    display: flex;
+    flex: content;
+    flex-direction: row;
+}
