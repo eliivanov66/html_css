@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    width: 80%;
+}
+
+p{
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    width: 80%;
+}
+
+body{
+    background-color: #020A18;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 5vh;
+    padding: 5vh 5vh;
+    margin-bottom: 5vh;
+}
+
+.Top{
+    background-color: #020A18;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.Top_link{
+    color:  #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 5%;
+}
+
+.Info{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 5%;
+    width: 70%;
+} 
+
+.Info_H2{
+    display: flex;
+    color: #3A68B8;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+    align-items:flex-end;
+}
+
+.Info_H1{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    align-items:flex-end;
+}
+
+.Info_Paragraph{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    align-items:flex-end;
+}
+
+.Info_Buttons{
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    gap: 2%;
+
+}
+
+.Info_Button{
+    color: #FFFFFF;
+    display: flex;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    text-align: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #3A68B8;
+    
+}
+
+.Info_play{
+    width: 15px;
+    height: 15px;
+}
+
+img{
+    background: transparent;
+} 
+
+.Picture{
+    display: flex;
+}
+
+.Bottom{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.small_card{
+    background: #132035;
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.large_card{
+    background: #132035;
+    color: #FFFFFF;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    grid-area: span 2/ span 2;
+}
+
+.table{
+    display: grid;
+    gap: 5%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+@media(max-width: 800px){
+
+    body{
+        background-color: #020A18;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        /* gap: 5vh;
+        padding: 5vh 5vh;
+        margin-bottom: 5vh; */
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+
+
+
+    .Main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+
+    .Info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 5%;
+        text-align: center;
+    }
+
+    .Info_Buttons{
+        justify-content: center;
+        align-self: center;
+        width: 100%;
+    }
+
+    .Info_Button{
+        align-self: center;
+        width: 25%;
+    }
+
+    .Picture{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Info_H2{
+        justify-content: center;
+        align-items:center;
+    }
+    
+    .Info_H1{
+        justify-content: center;
+        align-items:center;
+    }
+    
+    .Info_Paragraph{
+        justify-content: center;
+        align-items:center;
+    }
+
+    .Bottom{
+        display: grid;
+        gap: 5%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .table{
+        display: grid;
+        gap: 5%;
+        width: 100%;
+        grid-template-columns: 50%;
+        grid-template-rows: repeat(6, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttom_icons_left{
+        justify-self: end;
+    }
+
+    .buttom_icons_right{
+        justify-self: start;
+    }
+
+    .small_card{
+        background: #132035;
+        color: #FFFFFF;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+    }
+    
+    .large_card{
+        background: #132035;
+        color: #FFFFFF;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+        grid-area: span 1 / span 1;
+    }
+}
