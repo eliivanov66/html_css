@@ -1,0 +1,262 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+}
+
+.header{
+    background: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+}
+
+.header_left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    width: 50%;
+}
+
+.header_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    width: 50%;
+}
+
+.header_icon{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.upper{
+    background: #F1E4E6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 5%;
+}
+
+.upper_left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.upper_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    gap: 2%;
+}
+
+.upper_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper_right_text_header{
+    color: #000;
+    font-style:normal;
+    font-weight:bolder;
+    line-height:normal;
+}
+
+.upper_right_text_text{
+    color: #000;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+}
+
+upper_span{
+    color: #F16D7F;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 40%;
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 0;
+    gap: 1%;   
+}
+
+.middle_small_plate{
+    background: #211616;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    grid-column: span 1;
+    position: relative;
+}
+
+
+.middle_small_plate_image{
+    width:100%;
+    opacity: 40%;
+}
+
+.middle_small_plate_text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}
+
+.middle_small_plate_text_header{
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.middle_small_plate_text_text{
+    color: #F16D7F;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.middle_large_plate{
+    background: #211616;
+    grid-column: span 3;
+    position: relative;
+}
+
+.middle_large_plate_image{
+    width: 100%;
+    opacity: 40%;
+}
+
+.middle_large_plate_text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}
+
+.middle_large_plate_text_header{
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.middle_large_plate_text_text{
+    color: #F16D7F;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 0;
+}
+
+.lower_header{
+    color: #222;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+}
+
+.lower_text{
+    color: #9F9F9F;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 0;
+    gap: 1%; 
+}
+
+.bottom_small_plate{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom_small_plate_text{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.bottom_small_plate_text_header{
+    color: #000;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+}
+
+.bottom_small_plate_text_text{
+    color: #5D5D5D;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.bottom_small_plate_text_price{
+    color: #F16D7F;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+}
+
+
+.bottom_buttons{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 5%;
+}
+
+.bottom_button{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #F26376;
+    border-color: #F26376;
+    background: transparent;
+}
