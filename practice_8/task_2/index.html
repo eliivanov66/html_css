@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <nav>
+
+    </nav>
+    <section class="registation_section">
+        <form action="#" class="registation_form">
+
+            Имя: <input required autofocus type="text" name="%userName" id=""> </br>
+            Эл. почта: <input required type="email" name="%userMail" id=""> </br>
+            Пароль: <input required type="password" name="%userPassword" id=""> </br>
+            Возраст: <input required  type="number" min="0" name="%userAge" id=""> </br>
+            Дата рождения: <input required type="date" name="%userBirthDate" id=""> </br>
+            Номер телефона: <input required pattern="+7-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" type="text" name="%userPhone" id=""> </br>
+            Ползунок Range: <input required list="userRangeList"  min="1" max="10" type="range" name="%userRange" id="" onchange="document.getElementById('rangeValue').innerHTML = this.value;"> <span id="rangeValue">5</span> </br>
+            
+            <div class="checkboxTest">
+                Вы человек: <input id="check" type="checkbox" class="objectCheck"> <img src="./img/house-solid.svg" class="label_image" alt="">
+                <label for="check" class="label_check"></label>
+            </div>
+            
+            <datalist id="userRangeList">
+                <option value="0" label="0">
+                <option value="5" label="5">
+                <option value="10" label="10">
+            </datalist>
+            <button type="submit" class="buttonDone">Подтвердить ввод</button>
+        </form>
+
+
+    </section>
+<!-- Текст задания 1
++ Создание страницы регистрации 
++ Создать поля ввода
++ Имя
++ Имейл
++ Пароль
++ возраст (номер)
++ Дата рождения
++ Номер телефона
++ Ползунок range (значение от 1 до 10)
++ Все поля ввода должны быть обязательны для ввода
++ На первом поле ввода должен быть автофокус -->
+
+
+
+<!-- Текст задания 2
+Дан код
+<input id="check" type="checkbox">
+<label for="check">text</label>
+Необходимо поменять внешний вид checkbox 
+на https://fontawesome.com/ любой другой символ на выбор -->
+</body>
+</html>

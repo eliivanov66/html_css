@@ -1,0 +1,33 @@
+
+:root{
+    --image-visibly: hidden;
+}
+
+.label_check{
+    
+}
+
+.label_image{
+    visibility: var(--image-visibly);
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: center;
+    right: 0px;
+}
+
+.objectCheck{
+    position: absolute;
+}
+
+
+
+.objectCheck:active{
+    --image-visibly: visible;
+}
+
+/* .objectCheck:disabled{
+    --image-visibly: hidden;
+} */
+
+
